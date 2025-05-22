@@ -1,7 +1,0 @@
-﻿  test.cpp
-     Creating library C:\dev\Engine3D\bin\Release-x64\Engine3D\Engine3D.lib and object C:\dev\Engine3D\bin\Release-x64\Engine3D\Engine3D.exp
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Engine3D.vcxproj -> C:\dev\Engine3D\bin\Release-x64\Engine3D\Engine3D.dll

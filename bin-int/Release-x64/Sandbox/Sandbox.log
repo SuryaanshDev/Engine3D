@@ -1,7 +1,0 @@
-﻿  Application.cpp
-C:\dev\Engine3D\Sandbox\src\Application.cpp(7,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Sandbox.vcxproj -> C:\dev\Engine3D\bin\Release-x64\Sandbox\Sandbox.exe
