@@ -1,7 +1,7 @@
 #pragma once
 #include "Core.h"
 #include "spdlog/spdlog.h"
-#include <memory>
+#include "spdlog/fmt/ostr.h"
 
 namespace Engine3D {
 	
@@ -26,11 +26,11 @@ namespace Engine3D {
 #define ED_CORE_INFO(...)     ::Engine3D::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define ED_CORE_WARN(...)     ::Engine3D::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define ED_CORE_ERROR(...)     ::Engine3D::Log::GetCoreLogger()->error(__VA_ARGS__)
-#define ED_CORE_FATAL(...)    ::Engine3D::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+#define ED_CORE_FATAL(...)    ::Engine3D::Log::GetCoreLogger()->critical(__VA_ARGS__)
 
 //Client log members
 #define ED_TRACE(...)    ::Engine3D::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define ED_INFO(...)     ::Engine3D::Log::GetClientLogger()->info(__VA_ARGS__)
 #define ED_WARN(...)     ::Engine3D::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define ED_ERROR(...)     ::Engine3D::Log::GetClientLogger()->error(__VA_ARGS__)
-#define ED_FATAL(...)    ::Engine3D::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define ED_FATAL(...)    ::Engine3D::Log::GetClientLogger()->critical(__VA_ARGS__)

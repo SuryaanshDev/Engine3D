@@ -4,6 +4,9 @@
     <Filter Include="Engine3D">
       <UniqueIdentifier>{7231E534-5EFE-3F40-8717-2EE8734375CE}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine3D\Events">
+      <UniqueIdentifier>{1689CABB-8214-3880-8B25-BB74F72F9480}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Engine3D.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Engine3D\EntryPoint.h">
       <Filter>Engine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine3D\Events\ApplicationEvent.h">
+      <Filter>Engine3D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine3D\Events\Event.h">
+      <Filter>Engine3D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine3D\Events\KeyEvent.h">
+      <Filter>Engine3D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine3D\Events\MouseEvent.h">
+      <Filter>Engine3D\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Engine3D\Log.h">
       <Filter>Engine3D</Filter>
