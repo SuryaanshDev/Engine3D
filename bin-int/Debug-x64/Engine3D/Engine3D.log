@@ -1,2 +1,14 @@
-﻿  Application.cpp
+﻿  Log.cpp
+C:\dev\Engine3D\Engine3D\src\Engine3D\Log.h(19,42): warning C4251: 'Engine3D::Log::s_CoreLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Engine3D::Log'
+  (compiling source file 'src/Engine3D/Log.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1565,7):
+      see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+C:\dev\Engine3D\Engine3D\src\Engine3D\Log.h(20,42): warning C4251: 'Engine3D::Log::s_ClientLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Engine3D::Log'
+  (compiling source file 'src/Engine3D/Log.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1565,7):
+      see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+  Application.cpp
+  Generating Code...
   Engine3D.vcxproj -> C:\dev\Engine3D\bin\Debug-x64\Engine3D\Engine3D.dll
